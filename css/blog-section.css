@@ -1,0 +1,40 @@
+.page-title {
+  text-align: center
+}
+
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,400px);
+  grid-template-rows: auto;
+  border: red solid 2px;
+  padding: 30px;
+  grid-gap: 50px;
+  justify-content: center;
+  align-content: center;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  /*border: blue solid 2px;*/
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.posts h3 {
+  text-align: center;
+}
+
+.posts img {
+  margin: 15px 0 35px 0 ;
+}
+
+@media (min-width: 600px) {
+  .posts {
+    width: 400px
+  }
+
+}
