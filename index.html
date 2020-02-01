@@ -8,83 +8,106 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <link rel="stylesheet" href="css/main.css">
-  <link href="" rel="stylesheet">
+  <link rel="stylesheet" href="css/home/main.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <div id="wrapper">
+  <div class="wrapper">
+
     <header class="nav">
-      <div id="logo">
+      <div class="inner-nav">
+        <div id="logo">
         <p> DG Blog</p>
-      </div>
+        </div>
       <nav class="nav-container">
         <ul class="nav-bar">
-          <li class="nav-link"> Posts </li>
-          <li class="nav-link"> Contact </li>
+          <li class="nav-link"> <a href="#">Posts</a> </li>
+          <li class="nav-link"> <a href="#">Subscribe</a> </li>
         </ul>
       </nav>
+     </div>
     </header>
-    <main class="blog-container">
+
+    <main class="main-content">
       <div class="page-title">
         <h1> Blog Posts</h1>
       </div>
       <div class="blog-posts">
         <div class="posts" id="post-1">
           <h3> Blog Post 1</h3>
-          <img src="https://picsum.photos/200/300" alt="post-1">
+          <figure>
+            <img src="https://picsum.photos/200/300" alt="post-1">
+            <figcaption>Post 1</figcaption>
+          </figure>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Etiam vehicula diam nulla, sed vestibulum eros rutrum sed.
             In dapibus accumsan ex at auctor. Pellentesque nisi mi,
             vehicula non purus vitae, sagittis bibendum purus.
             Aliquam eget pellentesque nibh. Nulla viverra enim tortor,
-            in commodo nibh maximus quis. <span>Read More..</span>
+            in commodo nibh maximus quis.
           </p>
+          <button type="button" class="card-cta" onclick="location.href='post.html'">Read More</button>
         </div>
         <div class="posts" id="post-2">
           <h3> Blog Post 2</h3>
-          <img src="https://picsum.photos/200/300" alt="post-1">
+          <figure>
+            <img src="https://picsum.photos/200/300" alt="post-1">
+            <figcaption>Post 2</figcaption>
+          </figure>
+
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Etiam vehicula diam nulla, sed vestibulum eros rutrum sed.
             In dapibus accumsan ex at auctor. Pellentesque nisi mi,
             vehicula non purus vitae, sagittis bibendum purus.
             Aliquam eget pellentesque nibh. Nulla viverra enim tortor,
-            in commodo nibh maximus quis. <span>Read More..</span>
+            in commodo nibh maximus quis.
           </p>
+          <button type="button" class="card-cta" onclick="location.href='post.html'">Read More</button>
         </div>
+
         <div class="posts" id="post-3">
           <h3> Blog Post 3</h3>
-          <img src="https://picsum.photos/200/300" alt="post-1">
+          <figure>
+            <img src="https://picsum.photos/200/300" alt="post-1">
+            <figcaption>Post 3</figcaption>
+          </figure>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Etiam vehicula diam nulla, sed vestibulum eros rutrum sed.
             In dapibus accumsan ex at auctor. Pellentesque nisi mi,
             vehicula non purus vitae, sagittis bibendum purus.
             Aliquam eget pellentesque nibh. Nulla viverra enim tortor,
-            in commodo nibh maximus quis. <span>Read More..</span>
+            in commodo nibh maximus quis.
           </p>
+          <button type="button" class="card-cta" onclick="location.href='post.html'">  Read More</button>
         </div>
         <div class="posts" id="post-4">
           <h3> Blog Post 4</h3>
-          <img src="https://picsum.photos/200/300" alt="post-1">
+          <figure>
+            <img src="https://picsum.photos/200/300" alt="post-1">
+            <figcaption>Post 4</figcaption>
+          </figure>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Etiam vehicula diam nulla, sed vestibulum eros rutrum sed.
             In dapibus accumsan ex at auctor. Pellentesque nisi mi,
             vehicula non purus vitae, sagittis bibendum purus.
             Aliquam eget pellentesque nibh. Nulla viverra enim tortor,
-            in commodo nibh maximus quis. <span>Read More..</span>
+            in commodo nibh maximus quis.
           </p>
+          <button type="button" class="card-cta" onclick="location.href='post.html'">Read More </button>
         </div>
       </div>
     </main>
     <footer class="main-footer">
-      <div> This is the footer</div>
 
+      <div class="footer-text" id="footer-copyright">
+      <p> &copy;<script>document.write(new Date().getFullYear());</script>, DG Blog.</p>
+      </div>
     </footer>
   </div>
 </body>

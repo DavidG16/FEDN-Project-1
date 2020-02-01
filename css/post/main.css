@@ -1,0 +1,49 @@
+@import "../global/global-styles.css";
+
+.post {
+  max-width: 680px;
+  margin: 30px;
+}
+
+.post-content {
+  height: auto;
+}
+
+.social {
+  padding: 5px;
+}
+
+.social-icon {
+  margin: 5px;
+}
+
+.author-info {
+  border: 0.5px solid black;
+  border-radius: 15px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.content-key {
+  color: darkblue;
+  margin: 20px 0 5px 0;
+  font-size: 20px;
+}
+
+.author-avatar {
+  grid-area: avatar;
+}
+
+.author-name {
+  grid-area: name;
+
+}
+
+.author-entity {
+  grid-area: entity;
+
+}
+
+.author-bio{
+  grid-area: bio;
+}
